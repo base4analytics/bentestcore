@@ -2,22 +2,22 @@
     "report_data_sources": {
         "Cutadapt": {
             "all_sections": {
-                "SAMPLE1_PE_T1_1": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/9/SAMPLE1_PE_T1_1.fastq.gz_trimming_report.txt",
-                "SAMPLE1_PE_T1_2": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/10/SAMPLE1_PE_T1_2.fastq.gz_trimming_report.txt",
-                "SAMPLE3_SE_T1": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/11/SAMPLE3_SE_T1.fastq.gz_trimming_report.txt",
-                "SAMPLE3_SE_T2": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/12/SAMPLE3_SE_T2.fastq.gz_trimming_report.txt",
-                "SAMPLE2_PE_T1_1": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/13/SAMPLE2_PE_T1_1.fastq.gz_trimming_report.txt",
-                "SAMPLE2_PE_T1_2": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/14/SAMPLE2_PE_T1_2.fastq.gz_trimming_report.txt"
+                "SAMPLE1_PE_T1_1": "/workspace/bentestcore/work/a8/f226192a3086fb7bd196d25671adfa/9/SAMPLE1_PE_T1_1.fastq.gz_trimming_report.txt",
+                "SAMPLE1_PE_T1_2": "/workspace/bentestcore/work/a8/f226192a3086fb7bd196d25671adfa/10/SAMPLE1_PE_T1_2.fastq.gz_trimming_report.txt",
+                "SAMPLE2_PE_T1_1": "/workspace/bentestcore/work/a8/f226192a3086fb7bd196d25671adfa/11/SAMPLE2_PE_T1_1.fastq.gz_trimming_report.txt",
+                "SAMPLE2_PE_T1_2": "/workspace/bentestcore/work/a8/f226192a3086fb7bd196d25671adfa/12/SAMPLE2_PE_T1_2.fastq.gz_trimming_report.txt",
+                "SAMPLE3_SE_T1": "/workspace/bentestcore/work/a8/f226192a3086fb7bd196d25671adfa/13/SAMPLE3_SE_T1.fastq.gz_trimming_report.txt",
+                "SAMPLE3_SE_T2": "/workspace/bentestcore/work/a8/f226192a3086fb7bd196d25671adfa/14/SAMPLE3_SE_T2.fastq.gz_trimming_report.txt"
             }
         },
         "FastQC": {
             "all_sections": {
-                "SAMPLE1_PE_T1_1": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/3/SAMPLE1_PE_T1_1_fastqc.zip",
-                "SAMPLE1_PE_T1_2": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/4/SAMPLE1_PE_T1_2_fastqc.zip",
-                "SAMPLE2_PE_T1_1": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/5/SAMPLE2_PE_T1_1_fastqc.zip",
-                "SAMPLE2_PE_T1_2": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/6/SAMPLE2_PE_T1_2_fastqc.zip",
-                "SAMPLE3_SE_T1": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/7/SAMPLE3_SE_T1_fastqc.zip",
-                "SAMPLE3_SE_T2": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/8/SAMPLE3_SE_T2_fastqc.zip"
+                "SAMPLE3_SE_T1": "/workspace/bentestcore/work/a8/f226192a3086fb7bd196d25671adfa/3/SAMPLE3_SE_T1_fastqc.zip",
+                "SAMPLE2_PE_T1_1": "/workspace/bentestcore/work/a8/f226192a3086fb7bd196d25671adfa/4/SAMPLE2_PE_T1_1_fastqc.zip",
+                "SAMPLE2_PE_T1_2": "/workspace/bentestcore/work/a8/f226192a3086fb7bd196d25671adfa/5/SAMPLE2_PE_T1_2_fastqc.zip",
+                "SAMPLE1_PE_T1_1": "/workspace/bentestcore/work/a8/f226192a3086fb7bd196d25671adfa/6/SAMPLE1_PE_T1_1_fastqc.zip",
+                "SAMPLE1_PE_T1_2": "/workspace/bentestcore/work/a8/f226192a3086fb7bd196d25671adfa/7/SAMPLE1_PE_T1_2_fastqc.zip",
+                "SAMPLE3_SE_T2": "/workspace/bentestcore/work/a8/f226192a3086fb7bd196d25671adfa/8/SAMPLE3_SE_T2_fastqc.zip"
             }
         }
     },
@@ -43,26 +43,6 @@
                 "bp_written": 8169353,
                 "percent_trimmed": 1.4065701975645373
             },
-            "SAMPLE3_SE_T1": {
-                "cutadapt_version": "3.4",
-                "r_processed": 27721,
-                "r_with_adapters": 5164,
-                "r_written": 27721,
-                "bp_processed": 8285732,
-                "quality_trimmed": 17089,
-                "bp_written": 8261684,
-                "percent_trimmed": 0.2902338622586393
-            },
-            "SAMPLE3_SE_T2": {
-                "cutadapt_version": "3.4",
-                "r_processed": 21481,
-                "r_with_adapters": 3552,
-                "r_written": 21481,
-                "bp_processed": 6416734,
-                "quality_trimmed": 15775,
-                "bp_written": 6395280,
-                "percent_trimmed": 0.3343445435014136
-            },
             "SAMPLE2_PE_T1_1": {
                 "cutadapt_version": "3.4",
                 "r_processed": 21481,
@@ -82,22 +62,35 @@
                 "quality_trimmed": 65227,
                 "bp_written": 6344793,
                 "percent_trimmed": 1.1139190790904054
+            },
+            "SAMPLE3_SE_T1": {
+                "cutadapt_version": "3.4",
+                "r_processed": 27721,
+                "r_with_adapters": 5164,
+                "r_written": 27721,
+                "bp_processed": 8285732,
+                "quality_trimmed": 17089,
+                "bp_written": 8261684,
+                "percent_trimmed": 0.2902338622586393
+            },
+            "SAMPLE3_SE_T2": {
+                "cutadapt_version": "3.4",
+                "r_processed": 21481,
+                "r_with_adapters": 3552,
+                "r_written": 21481,
+                "bp_processed": 6416734,
+                "quality_trimmed": 15775,
+                "bp_written": 6395280,
+                "percent_trimmed": 0.3343445435014136
             }
         },
         {
-            "SAMPLE1_PE_T1_1": {
+            "SAMPLE3_SE_T1": {
                 "percent_gc": 38.0,
                 "avg_sequence_length": 298.66729194473504,
                 "total_sequences": 27721.0,
                 "percent_duplicates": 81.55910681432849,
                 "percent_fails": 45.45454545454545
-            },
-            "SAMPLE1_PE_T1_2": {
-                "percent_gc": 38.0,
-                "avg_sequence_length": 298.71141012229,
-                "total_sequences": 27721.0,
-                "percent_duplicates": 79.99350672775152,
-                "percent_fails": 36.36363636363637
             },
             "SAMPLE2_PE_T1_1": {
                 "percent_gc": 38.0,
@@ -113,12 +106,19 @@
                 "percent_duplicates": 82.23080862157255,
                 "percent_fails": 36.36363636363637
             },
-            "SAMPLE3_SE_T1": {
+            "SAMPLE1_PE_T1_1": {
                 "percent_gc": 38.0,
                 "avg_sequence_length": 298.66729194473504,
                 "total_sequences": 27721.0,
                 "percent_duplicates": 81.55910681432849,
                 "percent_fails": 45.45454545454545
+            },
+            "SAMPLE1_PE_T1_2": {
+                "percent_gc": 38.0,
+                "avg_sequence_length": 298.71141012229,
+                "total_sequences": 27721.0,
+                "percent_duplicates": 79.99350672775152,
+                "percent_fails": 36.36363636363637
             },
             "SAMPLE3_SE_T2": {
                 "percent_gc": 38.0,
@@ -2696,11 +2696,11 @@
                 "xDecimals": false,
                 "tt_label": "<b>Base {point.x}</b>: {point.y:.2f}",
                 "colors": {
-                    "SAMPLE1_PE_T1_1": "#5cb85c",
-                    "SAMPLE1_PE_T1_2": "#5cb85c",
+                    "SAMPLE3_SE_T1": "#5cb85c",
                     "SAMPLE2_PE_T1_1": "#5cb85c",
                     "SAMPLE2_PE_T1_2": "#5cb85c",
-                    "SAMPLE3_SE_T1": "#5cb85c",
+                    "SAMPLE1_PE_T1_1": "#5cb85c",
+                    "SAMPLE1_PE_T1_2": "#5cb85c",
                     "SAMPLE3_SE_T2": "#5cb85c"
                 },
                 "yPlotBands": [
@@ -3637,11 +3637,11 @@
                 "xmin": 0,
                 "xDecimals": false,
                 "colors": {
-                    "SAMPLE1_PE_T1_1": "#5cb85c",
-                    "SAMPLE1_PE_T1_2": "#5cb85c",
+                    "SAMPLE3_SE_T1": "#5cb85c",
                     "SAMPLE2_PE_T1_1": "#5cb85c",
                     "SAMPLE2_PE_T1_2": "#5cb85c",
-                    "SAMPLE3_SE_T1": "#5cb85c",
+                    "SAMPLE1_PE_T1_1": "#5cb85c",
+                    "SAMPLE1_PE_T1_2": "#5cb85c",
                     "SAMPLE3_SE_T2": "#5cb85c"
                 },
                 "tt_label": "<b>Phred {point.x}</b>: {point.y} reads",
@@ -8603,11 +8603,11 @@
                 "yDecimals": false,
                 "tt_label": "<b>{point.x}% GC</b>: {point.y}",
                 "colors": {
-                    "SAMPLE1_PE_T1_1": "#d9534f",
-                    "SAMPLE1_PE_T1_2": "#d9534f",
+                    "SAMPLE3_SE_T1": "#d9534f",
                     "SAMPLE2_PE_T1_1": "#d9534f",
                     "SAMPLE2_PE_T1_2": "#d9534f",
-                    "SAMPLE3_SE_T1": "#d9534f",
+                    "SAMPLE1_PE_T1_1": "#d9534f",
+                    "SAMPLE1_PE_T1_2": "#d9534f",
                     "SAMPLE3_SE_T2": "#d9534f"
                 },
                 "data_labels": [
@@ -10307,11 +10307,11 @@
                 "xmin": 0,
                 "xDecimals": false,
                 "colors": {
-                    "SAMPLE1_PE_T1_1": "#5cb85c",
-                    "SAMPLE1_PE_T1_2": "#5cb85c",
+                    "SAMPLE3_SE_T1": "#5cb85c",
                     "SAMPLE2_PE_T1_1": "#5cb85c",
                     "SAMPLE2_PE_T1_2": "#5cb85c",
-                    "SAMPLE3_SE_T1": "#5cb85c",
+                    "SAMPLE1_PE_T1_1": "#5cb85c",
+                    "SAMPLE1_PE_T1_2": "#5cb85c",
                     "SAMPLE3_SE_T2": "#5cb85c"
                 },
                 "tt_label": "<b>Base {point.x}</b>: {point.y:.2f}%",
@@ -11057,11 +11057,11 @@
                 "yMinTickInterval": 0.1,
                 "xDecimals": false,
                 "colors": {
-                    "SAMPLE1_PE_T1_1": "#f0ad4e",
-                    "SAMPLE1_PE_T1_2": "#f0ad4e",
+                    "SAMPLE3_SE_T1": "#f0ad4e",
                     "SAMPLE2_PE_T1_1": "#f0ad4e",
                     "SAMPLE2_PE_T1_2": "#f0ad4e",
-                    "SAMPLE3_SE_T1": "#f0ad4e",
+                    "SAMPLE1_PE_T1_1": "#f0ad4e",
+                    "SAMPLE1_PE_T1_2": "#f0ad4e",
                     "SAMPLE3_SE_T2": "#f0ad4e"
                 },
                 "tt_label": "<b>{point.x} bp</b>: {point.y}"
@@ -11233,11 +11233,11 @@
                 "yMinTickInterval": 0.1,
                 "yLabelFormat": "{value:.0f}%",
                 "colors": {
-                    "SAMPLE1_PE_T1_1": "#d9534f",
-                    "SAMPLE1_PE_T1_2": "#d9534f",
+                    "SAMPLE3_SE_T1": "#d9534f",
                     "SAMPLE2_PE_T1_1": "#d9534f",
                     "SAMPLE2_PE_T1_2": "#d9534f",
-                    "SAMPLE3_SE_T1": "#d9534f",
+                    "SAMPLE1_PE_T1_1": "#d9534f",
+                    "SAMPLE1_PE_T1_2": "#d9534f",
                     "SAMPLE3_SE_T2": "#d9534f"
                 },
                 "tt_decimals": 2,
@@ -11706,26 +11706,6 @@
                 "bp_written": 8169353,
                 "percent_trimmed": 1.4065701975645373
             },
-            "SAMPLE3_SE_T1": {
-                "cutadapt_version": "3.4",
-                "r_processed": 27721,
-                "r_with_adapters": 5164,
-                "r_written": 27721,
-                "bp_processed": 8285732,
-                "quality_trimmed": 17089,
-                "bp_written": 8261684,
-                "percent_trimmed": 0.2902338622586393
-            },
-            "SAMPLE3_SE_T2": {
-                "cutadapt_version": "3.4",
-                "r_processed": 21481,
-                "r_with_adapters": 3552,
-                "r_written": 21481,
-                "bp_processed": 6416734,
-                "quality_trimmed": 15775,
-                "bp_written": 6395280,
-                "percent_trimmed": 0.3343445435014136
-            },
             "SAMPLE2_PE_T1_1": {
                 "cutadapt_version": "3.4",
                 "r_processed": 21481,
@@ -11745,11 +11725,31 @@
                 "quality_trimmed": 65227,
                 "bp_written": 6344793,
                 "percent_trimmed": 1.1139190790904054
+            },
+            "SAMPLE3_SE_T1": {
+                "cutadapt_version": "3.4",
+                "r_processed": 27721,
+                "r_with_adapters": 5164,
+                "r_written": 27721,
+                "bp_processed": 8285732,
+                "quality_trimmed": 17089,
+                "bp_written": 8261684,
+                "percent_trimmed": 0.2902338622586393
+            },
+            "SAMPLE3_SE_T2": {
+                "cutadapt_version": "3.4",
+                "r_processed": 21481,
+                "r_with_adapters": 3552,
+                "r_written": 21481,
+                "bp_processed": 6416734,
+                "quality_trimmed": 15775,
+                "bp_written": 6395280,
+                "percent_trimmed": 0.3343445435014136
             }
         },
         "multiqc_fastqc": {
-            "SAMPLE1_PE_T1_1": {
-                "Filename": "SAMPLE1_PE_T1_1.fastq.gz",
+            "SAMPLE3_SE_T1": {
+                "Filename": "SAMPLE3_SE_T1.fastq.gz",
                 "File type": "Conventional base calls",
                 "Encoding": "Sanger / Illumina 1.9",
                 "Total Sequences": 27721.0,
@@ -11761,28 +11761,6 @@
                 "basic_statistics": "pass",
                 "per_base_sequence_quality": "pass",
                 "per_tile_sequence_quality": "fail",
-                "per_sequence_quality_scores": "pass",
-                "per_base_sequence_content": "fail",
-                "per_sequence_gc_content": "fail",
-                "per_base_n_content": "pass",
-                "sequence_length_distribution": "warn",
-                "sequence_duplication_levels": "fail",
-                "overrepresented_sequences": "fail",
-                "adapter_content": "pass"
-            },
-            "SAMPLE1_PE_T1_2": {
-                "Filename": "SAMPLE1_PE_T1_2.fastq.gz",
-                "File type": "Conventional base calls",
-                "Encoding": "Sanger / Illumina 1.9",
-                "Total Sequences": 27721.0,
-                "Sequences flagged as poor quality": 0.0,
-                "Sequence length": "35-301",
-                "%GC": 38.0,
-                "total_deduplicated_percentage": 20.006493272248477,
-                "avg_sequence_length": 298.71141012229,
-                "basic_statistics": "pass",
-                "per_base_sequence_quality": "pass",
-                "per_tile_sequence_quality": "warn",
                 "per_sequence_quality_scores": "pass",
                 "per_base_sequence_content": "fail",
                 "per_sequence_gc_content": "fail",
@@ -11836,8 +11814,8 @@
                 "overrepresented_sequences": "fail",
                 "adapter_content": "pass"
             },
-            "SAMPLE3_SE_T1": {
-                "Filename": "SAMPLE3_SE_T1.fastq.gz",
+            "SAMPLE1_PE_T1_1": {
+                "Filename": "SAMPLE1_PE_T1_1.fastq.gz",
                 "File type": "Conventional base calls",
                 "Encoding": "Sanger / Illumina 1.9",
                 "Total Sequences": 27721.0,
@@ -11849,6 +11827,28 @@
                 "basic_statistics": "pass",
                 "per_base_sequence_quality": "pass",
                 "per_tile_sequence_quality": "fail",
+                "per_sequence_quality_scores": "pass",
+                "per_base_sequence_content": "fail",
+                "per_sequence_gc_content": "fail",
+                "per_base_n_content": "pass",
+                "sequence_length_distribution": "warn",
+                "sequence_duplication_levels": "fail",
+                "overrepresented_sequences": "fail",
+                "adapter_content": "pass"
+            },
+            "SAMPLE1_PE_T1_2": {
+                "Filename": "SAMPLE1_PE_T1_2.fastq.gz",
+                "File type": "Conventional base calls",
+                "Encoding": "Sanger / Illumina 1.9",
+                "Total Sequences": 27721.0,
+                "Sequences flagged as poor quality": 0.0,
+                "Sequence length": "35-301",
+                "%GC": 38.0,
+                "total_deduplicated_percentage": 20.006493272248477,
+                "avg_sequence_length": 298.71141012229,
+                "basic_statistics": "pass",
+                "per_base_sequence_quality": "pass",
+                "per_tile_sequence_quality": "warn",
                 "per_sequence_quality_scores": "pass",
                 "per_base_sequence_content": "fail",
                 "per_sequence_gc_content": "fail",
@@ -11898,22 +11898,6 @@
                 "FastQC_mqc-generalstats-fastqc-percent_fails": 36.36363636363637,
                 "FastQC_mqc-generalstats-fastqc-total_sequences": 27721.0
             },
-            "SAMPLE3_SE_T1": {
-                "Cutadapt_mqc-generalstats-cutadapt-percent_trimmed": 0.2902338622586393,
-                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 81.55910681432849,
-                "FastQC_mqc-generalstats-fastqc-percent_gc": 38.0,
-                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.66729194473504,
-                "FastQC_mqc-generalstats-fastqc-percent_fails": 45.45454545454545,
-                "FastQC_mqc-generalstats-fastqc-total_sequences": 27721.0
-            },
-            "SAMPLE3_SE_T2": {
-                "Cutadapt_mqc-generalstats-cutadapt-percent_trimmed": 0.3343445435014136,
-                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 83.23169312415624,
-                "FastQC_mqc-generalstats-fastqc-percent_gc": 38.0,
-                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.4731623295005,
-                "FastQC_mqc-generalstats-fastqc-percent_fails": 45.45454545454545,
-                "FastQC_mqc-generalstats-fastqc-total_sequences": 21481.0
-            },
             "SAMPLE2_PE_T1_1": {
                 "Cutadapt_mqc-generalstats-cutadapt-percent_trimmed": 0.3343445435014136,
                 "FastQC_mqc-generalstats-fastqc-percent_duplicates": 83.23169312415624,
@@ -11929,16 +11913,32 @@
                 "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.4699036357712,
                 "FastQC_mqc-generalstats-fastqc-percent_fails": 36.36363636363637,
                 "FastQC_mqc-generalstats-fastqc-total_sequences": 21481.0
+            },
+            "SAMPLE3_SE_T1": {
+                "Cutadapt_mqc-generalstats-cutadapt-percent_trimmed": 0.2902338622586393,
+                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 81.55910681432849,
+                "FastQC_mqc-generalstats-fastqc-percent_gc": 38.0,
+                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.66729194473504,
+                "FastQC_mqc-generalstats-fastqc-percent_fails": 45.45454545454545,
+                "FastQC_mqc-generalstats-fastqc-total_sequences": 27721.0
+            },
+            "SAMPLE3_SE_T2": {
+                "Cutadapt_mqc-generalstats-cutadapt-percent_trimmed": 0.3343445435014136,
+                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 83.23169312415624,
+                "FastQC_mqc-generalstats-fastqc-percent_gc": 38.0,
+                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.4731623295005,
+                "FastQC_mqc-generalstats-fastqc-percent_fails": 45.45454545454545,
+                "FastQC_mqc-generalstats-fastqc-total_sequences": 21481.0
             }
         }
     },
     "config_analysis_dir_abs": [
-        "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42"
+        "/workspace/bentestcore/work/a8/f226192a3086fb7bd196d25671adfa"
     ],
     "config_analysis_dir": [
         "."
     ],
-    "config_creation_date": "2022-11-20, 13:47 UTC",
+    "config_creation_date": "2022-11-20, 14:10 UTC",
     "config_git_hash": null,
     "config_intro_text": null,
     "config_report_comment": "This report has been generated by the <a href=\"https://github.com/nf-core/bentestcore\" target=\"_blank\">nf-core/bentestcore</a> analysis pipeline. For information about how to interpret these results, please see the <a href=\"https://nf-co.re/bentestcore\" target=\"_blank\">documentation</a>.\n",
