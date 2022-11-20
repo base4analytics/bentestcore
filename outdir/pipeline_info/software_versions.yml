@@ -5,6 +5,9 @@ FASTQC:
   fastqc: 0.11.9
 SAMPLESHEET_CHECK:
   python: 3.8.3
+TRIMGALORE:
+  cutadapt: '3.4'
+  trimgalore: 0.6.7
 Workflow:
   Nextflow: 22.04.0
   nf-core/bentestcore: 1.0dev

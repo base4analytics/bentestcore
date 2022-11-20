@@ -1,31 +1,103 @@
 {
     "report_data_sources": {
+        "Cutadapt": {
+            "all_sections": {
+                "SAMPLE1_PE_T1_1": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/9/SAMPLE1_PE_T1_1.fastq.gz_trimming_report.txt",
+                "SAMPLE1_PE_T1_2": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/10/SAMPLE1_PE_T1_2.fastq.gz_trimming_report.txt",
+                "SAMPLE3_SE_T1": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/11/SAMPLE3_SE_T1.fastq.gz_trimming_report.txt",
+                "SAMPLE3_SE_T2": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/12/SAMPLE3_SE_T2.fastq.gz_trimming_report.txt",
+                "SAMPLE2_PE_T1_1": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/13/SAMPLE2_PE_T1_1.fastq.gz_trimming_report.txt",
+                "SAMPLE2_PE_T1_2": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/14/SAMPLE2_PE_T1_2.fastq.gz_trimming_report.txt"
+            }
+        },
         "FastQC": {
             "all_sections": {
-                "SAMPLE3_SE_T2": "/workspace/bentestcore/work/4c/6215c6dd669fc6550c4e9125d07cb3/3/SAMPLE3_SE_T2_fastqc.zip",
-                "SAMPLE3_SE_T1": "/workspace/bentestcore/work/4c/6215c6dd669fc6550c4e9125d07cb3/4/SAMPLE3_SE_T1_fastqc.zip",
-                "SAMPLE2_PE_T1_1": "/workspace/bentestcore/work/4c/6215c6dd669fc6550c4e9125d07cb3/5/SAMPLE2_PE_T1_1_fastqc.zip",
-                "SAMPLE2_PE_T1_2": "/workspace/bentestcore/work/4c/6215c6dd669fc6550c4e9125d07cb3/6/SAMPLE2_PE_T1_2_fastqc.zip",
-                "SAMPLE1_PE_T1_1": "/workspace/bentestcore/work/4c/6215c6dd669fc6550c4e9125d07cb3/7/SAMPLE1_PE_T1_1_fastqc.zip",
-                "SAMPLE1_PE_T1_2": "/workspace/bentestcore/work/4c/6215c6dd669fc6550c4e9125d07cb3/8/SAMPLE1_PE_T1_2_fastqc.zip"
+                "SAMPLE1_PE_T1_1": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/3/SAMPLE1_PE_T1_1_fastqc.zip",
+                "SAMPLE1_PE_T1_2": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/4/SAMPLE1_PE_T1_2_fastqc.zip",
+                "SAMPLE2_PE_T1_1": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/5/SAMPLE2_PE_T1_1_fastqc.zip",
+                "SAMPLE2_PE_T1_2": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/6/SAMPLE2_PE_T1_2_fastqc.zip",
+                "SAMPLE3_SE_T1": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/7/SAMPLE3_SE_T1_fastqc.zip",
+                "SAMPLE3_SE_T2": "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42/8/SAMPLE3_SE_T2_fastqc.zip"
             }
         }
     },
     "report_general_stats_data": [
         {
-            "SAMPLE3_SE_T2": {
-                "percent_gc": 38.0,
-                "avg_sequence_length": 298.4731623295005,
-                "total_sequences": 21481.0,
-                "percent_duplicates": 83.23169312415624,
-                "percent_fails": 45.45454545454545
+            "SAMPLE1_PE_T1_1": {
+                "cutadapt_version": "3.4",
+                "r_processed": 27721,
+                "r_with_adapters": 5164,
+                "r_written": 27721,
+                "bp_processed": 8285732,
+                "quality_trimmed": 17089,
+                "bp_written": 8261684,
+                "percent_trimmed": 0.2902338622586393
+            },
+            "SAMPLE1_PE_T1_2": {
+                "cutadapt_version": "3.4",
+                "r_processed": 27721,
+                "r_with_adapters": 6576,
+                "r_written": 27721,
+                "bp_processed": 8285900,
+                "quality_trimmed": 107836,
+                "bp_written": 8169353,
+                "percent_trimmed": 1.4065701975645373
             },
             "SAMPLE3_SE_T1": {
+                "cutadapt_version": "3.4",
+                "r_processed": 27721,
+                "r_with_adapters": 5164,
+                "r_written": 27721,
+                "bp_processed": 8285732,
+                "quality_trimmed": 17089,
+                "bp_written": 8261684,
+                "percent_trimmed": 0.2902338622586393
+            },
+            "SAMPLE3_SE_T2": {
+                "cutadapt_version": "3.4",
+                "r_processed": 21481,
+                "r_with_adapters": 3552,
+                "r_written": 21481,
+                "bp_processed": 6416734,
+                "quality_trimmed": 15775,
+                "bp_written": 6395280,
+                "percent_trimmed": 0.3343445435014136
+            },
+            "SAMPLE2_PE_T1_1": {
+                "cutadapt_version": "3.4",
+                "r_processed": 21481,
+                "r_with_adapters": 3552,
+                "r_written": 21481,
+                "bp_processed": 6416734,
+                "quality_trimmed": 15775,
+                "bp_written": 6395280,
+                "percent_trimmed": 0.3343445435014136
+            },
+            "SAMPLE2_PE_T1_2": {
+                "cutadapt_version": "3.4",
+                "r_processed": 21481,
+                "r_with_adapters": 4698,
+                "r_written": 21481,
+                "bp_processed": 6416265,
+                "quality_trimmed": 65227,
+                "bp_written": 6344793,
+                "percent_trimmed": 1.1139190790904054
+            }
+        },
+        {
+            "SAMPLE1_PE_T1_1": {
                 "percent_gc": 38.0,
                 "avg_sequence_length": 298.66729194473504,
                 "total_sequences": 27721.0,
                 "percent_duplicates": 81.55910681432849,
                 "percent_fails": 45.45454545454545
+            },
+            "SAMPLE1_PE_T1_2": {
+                "percent_gc": 38.0,
+                "avg_sequence_length": 298.71141012229,
+                "total_sequences": 27721.0,
+                "percent_duplicates": 79.99350672775152,
+                "percent_fails": 36.36363636363637
             },
             "SAMPLE2_PE_T1_1": {
                 "percent_gc": 38.0,
@@ -41,23 +113,46 @@
                 "percent_duplicates": 82.23080862157255,
                 "percent_fails": 36.36363636363637
             },
-            "SAMPLE1_PE_T1_1": {
+            "SAMPLE3_SE_T1": {
                 "percent_gc": 38.0,
                 "avg_sequence_length": 298.66729194473504,
                 "total_sequences": 27721.0,
                 "percent_duplicates": 81.55910681432849,
                 "percent_fails": 45.45454545454545
             },
-            "SAMPLE1_PE_T1_2": {
+            "SAMPLE3_SE_T2": {
                 "percent_gc": 38.0,
-                "avg_sequence_length": 298.71141012229,
-                "total_sequences": 27721.0,
-                "percent_duplicates": 79.99350672775152,
-                "percent_fails": 36.36363636363637
+                "avg_sequence_length": 298.4731623295005,
+                "total_sequences": 21481.0,
+                "percent_duplicates": 83.23169312415624,
+                "percent_fails": 45.45454545454545
             }
         }
     ],
     "report_general_stats_headers": [
+        {
+            "percent_trimmed": {
+                "title": "% BP Trimmed",
+                "description": "% Total Base Pairs trimmed",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "RdYlBu-rev",
+                "namespace": "Cutadapt",
+                "rid": "mqc-generalstats-cutadapt-percent_trimmed",
+                "format": "{:,.1f}",
+                "colour": "55,126,184",
+                "hidden": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            }
+        },
         {
             "percent_duplicates": {
                 "title": "% Dups",
@@ -69,7 +164,7 @@
                 "namespace": "FastQC",
                 "rid": "mqc-generalstats-fastqc-percent_duplicates",
                 "format": "{:,.1f}",
-                "colour": "55,126,184",
+                "colour": "77,175,74",
                 "hidden": null,
                 "ceiling": null,
                 "floor": null,
@@ -90,7 +185,7 @@
                 "format": "{:,.0f}",
                 "namespace": "FastQC",
                 "rid": "mqc-generalstats-fastqc-percent_gc",
-                "colour": "55,126,184",
+                "colour": "77,175,74",
                 "hidden": null,
                 "ceiling": null,
                 "floor": null,
@@ -111,7 +206,7 @@
                 "hidden": true,
                 "namespace": "FastQC",
                 "rid": "mqc-generalstats-fastqc-avg_sequence_length",
-                "colour": "55,126,184",
+                "colour": "77,175,74",
                 "max": null,
                 "ceiling": null,
                 "floor": null,
@@ -133,7 +228,7 @@
                 "hidden": true,
                 "namespace": "FastQC",
                 "rid": "mqc-generalstats-fastqc-percent_fails",
-                "colour": "55,126,184",
+                "colour": "77,175,74",
                 "ceiling": null,
                 "floor": null,
                 "minRange": null,
@@ -153,7 +248,7 @@
                 "namespace": "FastQC",
                 "rid": "mqc-generalstats-fastqc-total_sequences",
                 "format": "{:,.1f}",
-                "colour": "55,126,184",
+                "colour": "77,175,74",
                 "hidden": null,
                 "max": null,
                 "ceiling": null,
@@ -167,6 +262,711 @@
     ],
     "report_multiqc_command": "/usr/local/bin/multiqc --force --config multiqc_config.yml .",
     "report_plot_data": {
+        "cutadapt_filtered_reads_plot-1": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "SAMPLE1_PE_T1_1",
+                    "SAMPLE1_PE_T1_2",
+                    "SAMPLE2_PE_T1_1",
+                    "SAMPLE2_PE_T1_2",
+                    "SAMPLE3_SE_T1",
+                    "SAMPLE3_SE_T2"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "Reads passing filters",
+                        "data": [
+                            27721.0,
+                            27721.0,
+                            21481.0,
+                            21481.0,
+                            27721.0,
+                            21481.0
+                        ]
+                    }
+                ]
+            ],
+            "config": {
+                "id": "cutadapt_filtered_reads_plot-1",
+                "title": "Cutadapt: Filtered Reads",
+                "ylab": "Counts"
+            }
+        },
+        "cutadapt_trimmed_sequences_plot_3-1": {
+            "plot_type": "xy_line",
+            "datasets": [
+                [
+                    {
+                        "name": "SAMPLE1_PE_T1_1 - Adapter 1",
+                        "data": [
+                            [
+                                1,
+                                4170
+                            ],
+                            [
+                                2,
+                                685
+                            ],
+                            [
+                                3,
+                                293
+                            ],
+                            [
+                                4,
+                                6
+                            ],
+                            [
+                                5,
+                                3
+                            ],
+                            [
+                                43,
+                                1
+                            ],
+                            [
+                                47,
+                                1
+                            ],
+                            [
+                                70,
+                                1
+                            ],
+                            [
+                                71,
+                                1
+                            ],
+                            [
+                                72,
+                                1
+                            ],
+                            [
+                                75,
+                                1
+                            ],
+                            [
+                                123,
+                                1
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "SAMPLE1_PE_T1_2 - Adapter 1",
+                        "data": [
+                            [
+                                1,
+                                5230
+                            ],
+                            [
+                                2,
+                                990
+                            ],
+                            [
+                                3,
+                                332
+                            ],
+                            [
+                                4,
+                                17
+                            ],
+                            [
+                                5,
+                                1
+                            ],
+                            [
+                                6,
+                                1
+                            ],
+                            [
+                                7,
+                                1
+                            ],
+                            [
+                                8,
+                                1
+                            ],
+                            [
+                                10,
+                                1
+                            ],
+                            [
+                                184,
+                                1
+                            ],
+                            [
+                                217,
+                                1
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "SAMPLE2_PE_T1_1 - Adapter 1",
+                        "data": [
+                            [
+                                1,
+                                2672
+                            ],
+                            [
+                                2,
+                                557
+                            ],
+                            [
+                                3,
+                                307
+                            ],
+                            [
+                                4,
+                                3
+                            ],
+                            [
+                                5,
+                                1
+                            ],
+                            [
+                                43,
+                                1
+                            ],
+                            [
+                                49,
+                                1
+                            ],
+                            [
+                                58,
+                                1
+                            ],
+                            [
+                                62,
+                                1
+                            ],
+                            [
+                                68,
+                                1
+                            ],
+                            [
+                                71,
+                                1
+                            ],
+                            [
+                                72,
+                                2
+                            ],
+                            [
+                                75,
+                                1
+                            ],
+                            [
+                                94,
+                                1
+                            ],
+                            [
+                                104,
+                                1
+                            ],
+                            [
+                                187,
+                                1
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "SAMPLE2_PE_T1_2 - Adapter 1",
+                        "data": [
+                            [
+                                1,
+                                3517
+                            ],
+                            [
+                                2,
+                                838
+                            ],
+                            [
+                                3,
+                                330
+                            ],
+                            [
+                                4,
+                                11
+                            ],
+                            [
+                                7,
+                                1
+                            ],
+                            [
+                                11,
+                                1
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "SAMPLE3_SE_T1 - Adapter 1",
+                        "data": [
+                            [
+                                1,
+                                4170
+                            ],
+                            [
+                                2,
+                                685
+                            ],
+                            [
+                                3,
+                                293
+                            ],
+                            [
+                                4,
+                                6
+                            ],
+                            [
+                                5,
+                                3
+                            ],
+                            [
+                                43,
+                                1
+                            ],
+                            [
+                                47,
+                                1
+                            ],
+                            [
+                                70,
+                                1
+                            ],
+                            [
+                                71,
+                                1
+                            ],
+                            [
+                                72,
+                                1
+                            ],
+                            [
+                                75,
+                                1
+                            ],
+                            [
+                                123,
+                                1
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "SAMPLE3_SE_T2 - Adapter 1",
+                        "data": [
+                            [
+                                1,
+                                2672
+                            ],
+                            [
+                                2,
+                                557
+                            ],
+                            [
+                                3,
+                                307
+                            ],
+                            [
+                                4,
+                                3
+                            ],
+                            [
+                                5,
+                                1
+                            ],
+                            [
+                                43,
+                                1
+                            ],
+                            [
+                                49,
+                                1
+                            ],
+                            [
+                                58,
+                                1
+                            ],
+                            [
+                                62,
+                                1
+                            ],
+                            [
+                                68,
+                                1
+                            ],
+                            [
+                                71,
+                                1
+                            ],
+                            [
+                                72,
+                                2
+                            ],
+                            [
+                                75,
+                                1
+                            ],
+                            [
+                                94,
+                                1
+                            ],
+                            [
+                                104,
+                                1
+                            ],
+                            [
+                                187,
+                                1
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "SAMPLE1_PE_T1_1 - Adapter 1",
+                        "data": [
+                            [
+                                1,
+                                0.6017142362413783
+                            ],
+                            [
+                                2,
+                                0.3953595752048944
+                            ],
+                            [
+                                3,
+                                0.6765181251443084
+                            ],
+                            [
+                                4,
+                                0.055401662049861494
+                            ],
+                            [
+                                5,
+                                0.11070110701107011
+                            ],
+                            [
+                                43,
+                                1.0
+                            ],
+                            [
+                                47,
+                                1.0
+                            ],
+                            [
+                                70,
+                                1.0
+                            ],
+                            [
+                                71,
+                                1.0
+                            ],
+                            [
+                                72,
+                                1.0
+                            ],
+                            [
+                                75,
+                                1.0
+                            ],
+                            [
+                                123,
+                                1.0
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "SAMPLE1_PE_T1_2 - Adapter 1",
+                        "data": [
+                            [
+                                1,
+                                0.7546679749502179
+                            ],
+                            [
+                                2,
+                                0.5713955904421102
+                            ],
+                            [
+                                3,
+                                0.7665666127915031
+                            ],
+                            [
+                                4,
+                                0.1569713758079409
+                            ],
+                            [
+                                5,
+                                0.03690036900369004
+                            ],
+                            [
+                                6,
+                                0.14705882352941177
+                            ],
+                            [
+                                7,
+                                0.5882352941176471
+                            ],
+                            [
+                                8,
+                                2.5
+                            ],
+                            [
+                                10,
+                                1.0
+                            ],
+                            [
+                                184,
+                                1.0
+                            ],
+                            [
+                                217,
+                                1.0
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "SAMPLE2_PE_T1_1 - Adapter 1",
+                        "data": [
+                            [
+                                1,
+                                0.49756061226769954
+                            ],
+                            [
+                                2,
+                                0.41486667659764637
+                            ],
+                            [
+                                3,
+                                0.9147794994040523
+                            ],
+                            [
+                                4,
+                                0.03575685339690107
+                            ],
+                            [
+                                5,
+                                0.047619047619047616
+                            ],
+                            [
+                                43,
+                                1.0
+                            ],
+                            [
+                                49,
+                                1.0
+                            ],
+                            [
+                                58,
+                                1.0
+                            ],
+                            [
+                                62,
+                                1.0
+                            ],
+                            [
+                                68,
+                                1.0
+                            ],
+                            [
+                                71,
+                                1.0
+                            ],
+                            [
+                                72,
+                                2.0
+                            ],
+                            [
+                                75,
+                                1.0
+                            ],
+                            [
+                                94,
+                                1.0
+                            ],
+                            [
+                                104,
+                                1.0
+                            ],
+                            [
+                                187,
+                                1.0
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "SAMPLE2_PE_T1_2 - Adapter 1",
+                        "data": [
+                            [
+                                1,
+                                0.6549104316412797
+                            ],
+                            [
+                                2,
+                                0.6241620735885596
+                            ],
+                            [
+                                3,
+                                0.9833134684147794
+                            ],
+                            [
+                                4,
+                                0.13110846245530391
+                            ],
+                            [
+                                7,
+                                0.7692307692307692
+                            ],
+                            [
+                                11,
+                                1.0
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "SAMPLE3_SE_T1 - Adapter 1",
+                        "data": [
+                            [
+                                1,
+                                0.6017142362413783
+                            ],
+                            [
+                                2,
+                                0.3953595752048944
+                            ],
+                            [
+                                3,
+                                0.6765181251443084
+                            ],
+                            [
+                                4,
+                                0.055401662049861494
+                            ],
+                            [
+                                5,
+                                0.11070110701107011
+                            ],
+                            [
+                                43,
+                                1.0
+                            ],
+                            [
+                                47,
+                                1.0
+                            ],
+                            [
+                                70,
+                                1.0
+                            ],
+                            [
+                                71,
+                                1.0
+                            ],
+                            [
+                                72,
+                                1.0
+                            ],
+                            [
+                                75,
+                                1.0
+                            ],
+                            [
+                                123,
+                                1.0
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "SAMPLE3_SE_T2 - Adapter 1",
+                        "data": [
+                            [
+                                1,
+                                0.49756061226769954
+                            ],
+                            [
+                                2,
+                                0.41486667659764637
+                            ],
+                            [
+                                3,
+                                0.9147794994040523
+                            ],
+                            [
+                                4,
+                                0.03575685339690107
+                            ],
+                            [
+                                5,
+                                0.047619047619047616
+                            ],
+                            [
+                                43,
+                                1.0
+                            ],
+                            [
+                                49,
+                                1.0
+                            ],
+                            [
+                                58,
+                                1.0
+                            ],
+                            [
+                                62,
+                                1.0
+                            ],
+                            [
+                                68,
+                                1.0
+                            ],
+                            [
+                                71,
+                                1.0
+                            ],
+                            [
+                                72,
+                                2.0
+                            ],
+                            [
+                                75,
+                                1.0
+                            ],
+                            [
+                                94,
+                                1.0
+                            ],
+                            [
+                                104,
+                                1.0
+                            ],
+                            [
+                                187,
+                                1.0
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            "config": {
+                "id": "cutadapt_trimmed_sequences_plot_3-1",
+                "title": "Cutadapt: Lengths of Trimmed Sequences (3' end)",
+                "ylab": "Counts",
+                "xlab": "Length Trimmed (bp)",
+                "xDecimals": false,
+                "ymin": 0,
+                "tt_label": "<b>{point.x} bp trimmed</b>: {point.y:.0f}",
+                "data_labels": [
+                    {
+                        "name": "Counts",
+                        "ylab": "Count"
+                    },
+                    {
+                        "name": "Obs/Exp",
+                        "ylab": "Observed / Expected"
+                    }
+                ]
+            }
+        },
         "fastqc_sequence_counts_plot-1": {
             "plot_type": "bar_graph",
             "samples": [
@@ -1896,12 +2696,12 @@
                 "xDecimals": false,
                 "tt_label": "<b>Base {point.x}</b>: {point.y:.2f}",
                 "colors": {
-                    "SAMPLE3_SE_T2": "#5cb85c",
-                    "SAMPLE3_SE_T1": "#5cb85c",
+                    "SAMPLE1_PE_T1_1": "#5cb85c",
+                    "SAMPLE1_PE_T1_2": "#5cb85c",
                     "SAMPLE2_PE_T1_1": "#5cb85c",
                     "SAMPLE2_PE_T1_2": "#5cb85c",
-                    "SAMPLE1_PE_T1_1": "#5cb85c",
-                    "SAMPLE1_PE_T1_2": "#5cb85c"
+                    "SAMPLE3_SE_T1": "#5cb85c",
+                    "SAMPLE3_SE_T2": "#5cb85c"
                 },
                 "yPlotBands": [
                     {
@@ -2837,12 +3637,12 @@
                 "xmin": 0,
                 "xDecimals": false,
                 "colors": {
-                    "SAMPLE3_SE_T2": "#5cb85c",
-                    "SAMPLE3_SE_T1": "#5cb85c",
+                    "SAMPLE1_PE_T1_1": "#5cb85c",
+                    "SAMPLE1_PE_T1_2": "#5cb85c",
                     "SAMPLE2_PE_T1_1": "#5cb85c",
                     "SAMPLE2_PE_T1_2": "#5cb85c",
-                    "SAMPLE1_PE_T1_1": "#5cb85c",
-                    "SAMPLE1_PE_T1_2": "#5cb85c"
+                    "SAMPLE3_SE_T1": "#5cb85c",
+                    "SAMPLE3_SE_T2": "#5cb85c"
                 },
                 "tt_label": "<b>Phred {point.x}</b>: {point.y} reads",
                 "xPlotBands": [
@@ -7803,12 +8603,12 @@
                 "yDecimals": false,
                 "tt_label": "<b>{point.x}% GC</b>: {point.y}",
                 "colors": {
-                    "SAMPLE3_SE_T2": "#d9534f",
-                    "SAMPLE3_SE_T1": "#d9534f",
+                    "SAMPLE1_PE_T1_1": "#d9534f",
+                    "SAMPLE1_PE_T1_2": "#d9534f",
                     "SAMPLE2_PE_T1_1": "#d9534f",
                     "SAMPLE2_PE_T1_2": "#d9534f",
-                    "SAMPLE1_PE_T1_1": "#d9534f",
-                    "SAMPLE1_PE_T1_2": "#d9534f"
+                    "SAMPLE3_SE_T1": "#d9534f",
+                    "SAMPLE3_SE_T2": "#d9534f"
                 },
                 "data_labels": [
                     {
@@ -9507,12 +10307,12 @@
                 "xmin": 0,
                 "xDecimals": false,
                 "colors": {
-                    "SAMPLE3_SE_T2": "#5cb85c",
-                    "SAMPLE3_SE_T1": "#5cb85c",
+                    "SAMPLE1_PE_T1_1": "#5cb85c",
+                    "SAMPLE1_PE_T1_2": "#5cb85c",
                     "SAMPLE2_PE_T1_1": "#5cb85c",
                     "SAMPLE2_PE_T1_2": "#5cb85c",
-                    "SAMPLE1_PE_T1_1": "#5cb85c",
-                    "SAMPLE1_PE_T1_2": "#5cb85c"
+                    "SAMPLE3_SE_T1": "#5cb85c",
+                    "SAMPLE3_SE_T2": "#5cb85c"
                 },
                 "tt_label": "<b>Base {point.x}</b>: {point.y:.2f}%",
                 "yPlotBands": [
@@ -10257,12 +11057,12 @@
                 "yMinTickInterval": 0.1,
                 "xDecimals": false,
                 "colors": {
-                    "SAMPLE3_SE_T2": "#f0ad4e",
-                    "SAMPLE3_SE_T1": "#f0ad4e",
+                    "SAMPLE1_PE_T1_1": "#f0ad4e",
+                    "SAMPLE1_PE_T1_2": "#f0ad4e",
                     "SAMPLE2_PE_T1_1": "#f0ad4e",
                     "SAMPLE2_PE_T1_2": "#f0ad4e",
-                    "SAMPLE1_PE_T1_1": "#f0ad4e",
-                    "SAMPLE1_PE_T1_2": "#f0ad4e"
+                    "SAMPLE3_SE_T1": "#f0ad4e",
+                    "SAMPLE3_SE_T2": "#f0ad4e"
                 },
                 "tt_label": "<b>{point.x} bp</b>: {point.y}"
             }
@@ -10433,12 +11233,12 @@
                 "yMinTickInterval": 0.1,
                 "yLabelFormat": "{value:.0f}%",
                 "colors": {
-                    "SAMPLE3_SE_T2": "#d9534f",
-                    "SAMPLE3_SE_T1": "#d9534f",
+                    "SAMPLE1_PE_T1_1": "#d9534f",
+                    "SAMPLE1_PE_T1_2": "#d9534f",
                     "SAMPLE2_PE_T1_1": "#d9534f",
                     "SAMPLE2_PE_T1_2": "#d9534f",
-                    "SAMPLE1_PE_T1_1": "#d9534f",
-                    "SAMPLE1_PE_T1_2": "#d9534f"
+                    "SAMPLE3_SE_T1": "#d9534f",
+                    "SAMPLE3_SE_T2": "#d9534f"
                 },
                 "tt_decimals": 2,
                 "tt_suffix": "%"
@@ -10885,17 +11685,79 @@
         }
     },
     "report_saved_raw_data": {
-        "multiqc_fastqc": {
+        "multiqc_cutadapt": {
+            "SAMPLE1_PE_T1_1": {
+                "cutadapt_version": "3.4",
+                "r_processed": 27721,
+                "r_with_adapters": 5164,
+                "r_written": 27721,
+                "bp_processed": 8285732,
+                "quality_trimmed": 17089,
+                "bp_written": 8261684,
+                "percent_trimmed": 0.2902338622586393
+            },
+            "SAMPLE1_PE_T1_2": {
+                "cutadapt_version": "3.4",
+                "r_processed": 27721,
+                "r_with_adapters": 6576,
+                "r_written": 27721,
+                "bp_processed": 8285900,
+                "quality_trimmed": 107836,
+                "bp_written": 8169353,
+                "percent_trimmed": 1.4065701975645373
+            },
+            "SAMPLE3_SE_T1": {
+                "cutadapt_version": "3.4",
+                "r_processed": 27721,
+                "r_with_adapters": 5164,
+                "r_written": 27721,
+                "bp_processed": 8285732,
+                "quality_trimmed": 17089,
+                "bp_written": 8261684,
+                "percent_trimmed": 0.2902338622586393
+            },
             "SAMPLE3_SE_T2": {
-                "Filename": "SAMPLE3_SE_T2.fastq.gz",
+                "cutadapt_version": "3.4",
+                "r_processed": 21481,
+                "r_with_adapters": 3552,
+                "r_written": 21481,
+                "bp_processed": 6416734,
+                "quality_trimmed": 15775,
+                "bp_written": 6395280,
+                "percent_trimmed": 0.3343445435014136
+            },
+            "SAMPLE2_PE_T1_1": {
+                "cutadapt_version": "3.4",
+                "r_processed": 21481,
+                "r_with_adapters": 3552,
+                "r_written": 21481,
+                "bp_processed": 6416734,
+                "quality_trimmed": 15775,
+                "bp_written": 6395280,
+                "percent_trimmed": 0.3343445435014136
+            },
+            "SAMPLE2_PE_T1_2": {
+                "cutadapt_version": "3.4",
+                "r_processed": 21481,
+                "r_with_adapters": 4698,
+                "r_written": 21481,
+                "bp_processed": 6416265,
+                "quality_trimmed": 65227,
+                "bp_written": 6344793,
+                "percent_trimmed": 1.1139190790904054
+            }
+        },
+        "multiqc_fastqc": {
+            "SAMPLE1_PE_T1_1": {
+                "Filename": "SAMPLE1_PE_T1_1.fastq.gz",
                 "File type": "Conventional base calls",
                 "Encoding": "Sanger / Illumina 1.9",
-                "Total Sequences": 21481.0,
+                "Total Sequences": 27721.0,
                 "Sequences flagged as poor quality": 0.0,
                 "Sequence length": "35-301",
                 "%GC": 38.0,
-                "total_deduplicated_percentage": 16.76830687584377,
-                "avg_sequence_length": 298.4731623295005,
+                "total_deduplicated_percentage": 18.440893185671513,
+                "avg_sequence_length": 298.66729194473504,
                 "basic_statistics": "pass",
                 "per_base_sequence_quality": "pass",
                 "per_tile_sequence_quality": "fail",
@@ -10908,19 +11770,19 @@
                 "overrepresented_sequences": "fail",
                 "adapter_content": "pass"
             },
-            "SAMPLE3_SE_T1": {
-                "Filename": "SAMPLE3_SE_T1.fastq.gz",
+            "SAMPLE1_PE_T1_2": {
+                "Filename": "SAMPLE1_PE_T1_2.fastq.gz",
                 "File type": "Conventional base calls",
                 "Encoding": "Sanger / Illumina 1.9",
                 "Total Sequences": 27721.0,
                 "Sequences flagged as poor quality": 0.0,
                 "Sequence length": "35-301",
                 "%GC": 38.0,
-                "total_deduplicated_percentage": 18.440893185671513,
-                "avg_sequence_length": 298.66729194473504,
+                "total_deduplicated_percentage": 20.006493272248477,
+                "avg_sequence_length": 298.71141012229,
                 "basic_statistics": "pass",
                 "per_base_sequence_quality": "pass",
-                "per_tile_sequence_quality": "fail",
+                "per_tile_sequence_quality": "warn",
                 "per_sequence_quality_scores": "pass",
                 "per_base_sequence_content": "fail",
                 "per_sequence_gc_content": "fail",
@@ -10974,8 +11836,8 @@
                 "overrepresented_sequences": "fail",
                 "adapter_content": "pass"
             },
-            "SAMPLE1_PE_T1_1": {
-                "Filename": "SAMPLE1_PE_T1_1.fastq.gz",
+            "SAMPLE3_SE_T1": {
+                "Filename": "SAMPLE3_SE_T1.fastq.gz",
                 "File type": "Conventional base calls",
                 "Encoding": "Sanger / Illumina 1.9",
                 "Total Sequences": 27721.0,
@@ -10996,19 +11858,19 @@
                 "overrepresented_sequences": "fail",
                 "adapter_content": "pass"
             },
-            "SAMPLE1_PE_T1_2": {
-                "Filename": "SAMPLE1_PE_T1_2.fastq.gz",
+            "SAMPLE3_SE_T2": {
+                "Filename": "SAMPLE3_SE_T2.fastq.gz",
                 "File type": "Conventional base calls",
                 "Encoding": "Sanger / Illumina 1.9",
-                "Total Sequences": 27721.0,
+                "Total Sequences": 21481.0,
                 "Sequences flagged as poor quality": 0.0,
                 "Sequence length": "35-301",
                 "%GC": 38.0,
-                "total_deduplicated_percentage": 20.006493272248477,
-                "avg_sequence_length": 298.71141012229,
+                "total_deduplicated_percentage": 16.76830687584377,
+                "avg_sequence_length": 298.4731623295005,
                 "basic_statistics": "pass",
                 "per_base_sequence_quality": "pass",
-                "per_tile_sequence_quality": "warn",
+                "per_tile_sequence_quality": "fail",
                 "per_sequence_quality_scores": "pass",
                 "per_base_sequence_content": "fail",
                 "per_sequence_gc_content": "fail",
@@ -11020,35 +11882,8 @@
             }
         },
         "multiqc_general_stats": {
-            "SAMPLE3_SE_T2": {
-                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 83.23169312415624,
-                "FastQC_mqc-generalstats-fastqc-percent_gc": 38.0,
-                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.4731623295005,
-                "FastQC_mqc-generalstats-fastqc-percent_fails": 45.45454545454545,
-                "FastQC_mqc-generalstats-fastqc-total_sequences": 21481.0
-            },
-            "SAMPLE3_SE_T1": {
-                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 81.55910681432849,
-                "FastQC_mqc-generalstats-fastqc-percent_gc": 38.0,
-                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.66729194473504,
-                "FastQC_mqc-generalstats-fastqc-percent_fails": 45.45454545454545,
-                "FastQC_mqc-generalstats-fastqc-total_sequences": 27721.0
-            },
-            "SAMPLE2_PE_T1_1": {
-                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 83.23169312415624,
-                "FastQC_mqc-generalstats-fastqc-percent_gc": 38.0,
-                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.4731623295005,
-                "FastQC_mqc-generalstats-fastqc-percent_fails": 45.45454545454545,
-                "FastQC_mqc-generalstats-fastqc-total_sequences": 21481.0
-            },
-            "SAMPLE2_PE_T1_2": {
-                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 82.23080862157255,
-                "FastQC_mqc-generalstats-fastqc-percent_gc": 38.0,
-                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.4699036357712,
-                "FastQC_mqc-generalstats-fastqc-percent_fails": 36.36363636363637,
-                "FastQC_mqc-generalstats-fastqc-total_sequences": 21481.0
-            },
             "SAMPLE1_PE_T1_1": {
+                "Cutadapt_mqc-generalstats-cutadapt-percent_trimmed": 0.2902338622586393,
                 "FastQC_mqc-generalstats-fastqc-percent_duplicates": 81.55910681432849,
                 "FastQC_mqc-generalstats-fastqc-percent_gc": 38.0,
                 "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.66729194473504,
@@ -11056,21 +11891,54 @@
                 "FastQC_mqc-generalstats-fastqc-total_sequences": 27721.0
             },
             "SAMPLE1_PE_T1_2": {
+                "Cutadapt_mqc-generalstats-cutadapt-percent_trimmed": 1.4065701975645373,
                 "FastQC_mqc-generalstats-fastqc-percent_duplicates": 79.99350672775152,
                 "FastQC_mqc-generalstats-fastqc-percent_gc": 38.0,
                 "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.71141012229,
                 "FastQC_mqc-generalstats-fastqc-percent_fails": 36.36363636363637,
                 "FastQC_mqc-generalstats-fastqc-total_sequences": 27721.0
+            },
+            "SAMPLE3_SE_T1": {
+                "Cutadapt_mqc-generalstats-cutadapt-percent_trimmed": 0.2902338622586393,
+                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 81.55910681432849,
+                "FastQC_mqc-generalstats-fastqc-percent_gc": 38.0,
+                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.66729194473504,
+                "FastQC_mqc-generalstats-fastqc-percent_fails": 45.45454545454545,
+                "FastQC_mqc-generalstats-fastqc-total_sequences": 27721.0
+            },
+            "SAMPLE3_SE_T2": {
+                "Cutadapt_mqc-generalstats-cutadapt-percent_trimmed": 0.3343445435014136,
+                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 83.23169312415624,
+                "FastQC_mqc-generalstats-fastqc-percent_gc": 38.0,
+                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.4731623295005,
+                "FastQC_mqc-generalstats-fastqc-percent_fails": 45.45454545454545,
+                "FastQC_mqc-generalstats-fastqc-total_sequences": 21481.0
+            },
+            "SAMPLE2_PE_T1_1": {
+                "Cutadapt_mqc-generalstats-cutadapt-percent_trimmed": 0.3343445435014136,
+                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 83.23169312415624,
+                "FastQC_mqc-generalstats-fastqc-percent_gc": 38.0,
+                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.4731623295005,
+                "FastQC_mqc-generalstats-fastqc-percent_fails": 45.45454545454545,
+                "FastQC_mqc-generalstats-fastqc-total_sequences": 21481.0
+            },
+            "SAMPLE2_PE_T1_2": {
+                "Cutadapt_mqc-generalstats-cutadapt-percent_trimmed": 1.1139190790904054,
+                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 82.23080862157255,
+                "FastQC_mqc-generalstats-fastqc-percent_gc": 38.0,
+                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.4699036357712,
+                "FastQC_mqc-generalstats-fastqc-percent_fails": 36.36363636363637,
+                "FastQC_mqc-generalstats-fastqc-total_sequences": 21481.0
             }
         }
     },
     "config_analysis_dir_abs": [
-        "/workspace/bentestcore/work/4c/6215c6dd669fc6550c4e9125d07cb3"
+        "/workspace/bentestcore/work/8f/2f6952836d852fa84065cdf2b5cb42"
     ],
     "config_analysis_dir": [
         "."
     ],
-    "config_creation_date": "2022-11-20, 12:29 UTC",
+    "config_creation_date": "2022-11-20, 13:47 UTC",
     "config_git_hash": null,
     "config_intro_text": null,
     "config_report_comment": "This report has been generated by the <a href=\"https://github.com/nf-core/bentestcore\" target=\"_blank\">nf-core/bentestcore</a> analysis pipeline. For information about how to interpret these results, please see the <a href=\"https://nf-co.re/bentestcore\" target=\"_blank\">documentation</a>.\n",
