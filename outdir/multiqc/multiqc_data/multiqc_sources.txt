@@ -1,0 +1,7 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SAMPLE3_SE_T2	/workspace/bentestcore/work/4c/6215c6dd669fc6550c4e9125d07cb3/3/SAMPLE3_SE_T2_fastqc.zip
+FastQC	all_sections	SAMPLE3_SE_T1	/workspace/bentestcore/work/4c/6215c6dd669fc6550c4e9125d07cb3/4/SAMPLE3_SE_T1_fastqc.zip
+FastQC	all_sections	SAMPLE2_PE_T1_1	/workspace/bentestcore/work/4c/6215c6dd669fc6550c4e9125d07cb3/5/SAMPLE2_PE_T1_1_fastqc.zip
+FastQC	all_sections	SAMPLE2_PE_T1_2	/workspace/bentestcore/work/4c/6215c6dd669fc6550c4e9125d07cb3/6/SAMPLE2_PE_T1_2_fastqc.zip
+FastQC	all_sections	SAMPLE1_PE_T1_1	/workspace/bentestcore/work/4c/6215c6dd669fc6550c4e9125d07cb3/7/SAMPLE1_PE_T1_1_fastqc.zip
+FastQC	all_sections	SAMPLE1_PE_T1_2	/workspace/bentestcore/work/4c/6215c6dd669fc6550c4e9125d07cb3/8/SAMPLE1_PE_T1_2_fastqc.zip
